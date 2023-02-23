@@ -41,5 +41,10 @@
         padding: .7rem 0;
         color: $white;
         text-transform: uppercase;
+        font-weight: $fw700;
+        &:hover {
+            background-color: $white;
+            color: $orange;
+        }
     }
 }

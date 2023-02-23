@@ -103,5 +103,14 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 0.6rem 1rem;
   color: hsl(217deg, 12%, 63%);
 }
+.first-card__submit-button {
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 0.7rem 0;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */

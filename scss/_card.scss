@@ -33,4 +33,13 @@
             color: $lightGrey;
         }
     }
+    &__submit-button {
+        background-color: $orange;
+        border: none;
+        width: 100%;
+        border-radius: 1.5rem;
+        padding: .7rem 0;
+        color: $white;
+        text-transform: uppercase;
+    }
 }

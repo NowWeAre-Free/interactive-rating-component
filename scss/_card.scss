@@ -1,5 +1,5 @@
 @use './var'as *;
-@use './mixins' as *;
+@use './mixins'as *;
 
 .card {
     background-color: $darkBlue;
@@ -8,9 +8,29 @@
     padding: 1.5rem;
 }
 
+
 //first-card styles
-.first-card__img {
-    @include button-bgc;
-    padding: .7rem;
-    border-radius: 50%;
+.first-card {
+    &__img {
+        @include button-bgc;
+        padding: 0.6rem;
+    }
+    &__title {
+        margin: 1rem 0;
+    }
+    &__description {
+        color: $lightGrey;
+        margin-bottom: 1.5rem;
+    }
+    &__buttons {
+        @include flex-center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+        &--style {
+            @include button-bgc;
+            border: none;
+            padding: 0.6rem 1rem;
+            color: $lightGrey;
+        }
+    }
 }

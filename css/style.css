@@ -79,8 +79,29 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .first-card__img {
   background-color: hsla(216deg, 12%, 54%, 0.1);
-  padding: 0.7rem;
   border-radius: 50%;
+  padding: 0.6rem;
+}
+.first-card__title {
+  margin: 1rem 0;
+}
+.first-card__description {
+  color: hsl(217deg, 12%, 63%);
+  margin-bottom: 1.5rem;
+}
+.first-card__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.first-card__buttons--style {
+  background-color: hsla(216deg, 12%, 54%, 0.1);
+  border-radius: 50%;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: hsl(217deg, 12%, 63%);
 }
 
 /*# sourceMappingURL=style.css.map */

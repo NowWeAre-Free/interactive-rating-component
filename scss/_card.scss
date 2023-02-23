@@ -31,6 +31,15 @@
             border: none;
             padding: 0.6rem 1rem;
             color: $lightGrey;
+            &:focus {
+                background-color: $lightGrey;
+                color: $white;
+                outline: none;
+            }
+            &:hover {
+                background-color: $orange;
+                color: $white;
+            }
         }
     }
     &__submit-button {

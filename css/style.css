@@ -121,8 +121,9 @@ p, h1, h2, h3, h4, h5, h6 {
   color: hsl(0deg, 0%, 100%);
   text-transform: uppercase;
   font-weight: 700;
+  outline: none;
 }
-.first-card__submit-button:hover {
+.first-card__submit-button:hover, .first-card__submit-button:focus {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(25deg, 97%, 53%);
 }

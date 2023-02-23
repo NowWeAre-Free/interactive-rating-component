@@ -51,9 +51,11 @@
         color: $white;
         text-transform: uppercase;
         font-weight: $fw700;
-        &:hover {
+        outline: none;
+        &:hover, &:focus {
             background-color: $white;
             color: $orange;
         }
+        
     }
 }

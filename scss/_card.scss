@@ -1,0 +1,16 @@
+@use './var'as *;
+@use './mixins' as *;
+
+.card {
+    background-color: $darkBlue;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding: 1.5rem;
+}
+
+//first-card styles
+.first-card__img {
+    @include button-bgc;
+    padding: .7rem;
+    border-radius: 50%;
+}

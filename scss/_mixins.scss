@@ -1,0 +1,11 @@
+@use './var' as *;
+
+@mixin button-bgc {
+    background-color: hsla(hue($mediumGrey), saturation($mediumGrey), lightness($mediumGrey), 0.1);
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

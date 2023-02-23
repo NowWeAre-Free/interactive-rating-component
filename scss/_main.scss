@@ -1,0 +1,12 @@
+@use './var' as *;
+@use './mixins' as *;
+
+.main {
+    background-color: $veryDarkBlue;
+    color: $white;
+    font-family: $f-family;
+    font-size: $f-size;
+    min-height: 100vh;
+    @include flex-center;
+    flex-direction: column;
+}

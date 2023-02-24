@@ -6,6 +6,7 @@
     border-radius: 1rem;
     margin: 0 1rem;
     padding: 1.5rem;
+    max-width: 400px;
 }
 
 
@@ -29,7 +30,8 @@
         &--style {
             @include button-bgc;
             border: none;
-            padding: 0.6rem 1rem;
+            height: 45px;
+            width: 45px;
             color: $lightGrey;
             &:focus {
                 background-color: $lightGrey;
@@ -64,7 +66,6 @@
     @include flex-center;
     flex-direction: column;
     gap: 1rem;
-    display: none;
     &__selected{
         @include button-bgc;
         border-radius: 1rem;
@@ -79,5 +80,17 @@
         text-align: center;
         margin-bottom: 1rem;
         color: $lightGrey;
+    }
+}
+.hidden {
+    display: none;
+}
+
+@media (max-width: 225px) {
+    .first-card {
+        &__buttons {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 }

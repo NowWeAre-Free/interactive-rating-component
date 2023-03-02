@@ -104,6 +104,8 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 50px;
   width: 50px;
   color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+  line-height: 1;
 }
 .first-card__buttons--style:focus {
   background-color: hsl(217deg, 12%, 63%);
@@ -119,11 +121,14 @@ p, h1, h2, h3, h4, h5, h6 {
   border: none;
   width: 100%;
   border-radius: 1.5rem;
-  padding: 0.7rem 0;
+  padding: 1rem 0;
   color: hsl(0deg, 0%, 100%);
   text-transform: uppercase;
   font-weight: 700;
   outline: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  line-height: 1;
 }
 .first-card__submit-button:hover, .first-card__submit-button:focus {
   background-color: hsl(0deg, 0%, 100%);

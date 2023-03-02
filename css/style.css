@@ -101,8 +101,8 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: hsla(216deg, 12%, 54%, 0.1);
   border-radius: 50%;
   border: none;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   color: hsl(217deg, 12%, 63%);
 }
 .first-card__buttons--style:focus {

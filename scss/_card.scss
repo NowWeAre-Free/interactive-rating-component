@@ -30,8 +30,8 @@
         &--style {
             @include button-bgc;
             border: none;
-            height: 45px;
-            width: 45px;
+            height: 50px;
+            width: 50px;
             color: $lightGrey;
             &:focus {
                 background-color: $lightGrey;
